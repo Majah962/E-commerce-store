@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "print-color-adjust",
+          "-webkit-overflow-scrolling",
+          "-webkit-tap-highlight-color",
+          "text-align: -webkit-match-parent"
+        ]
+      }
+    ]
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_chr <= 112",
+    "not chrome <= 112",
+    "not edge <= 112",
+    "not firefox <= 112",
+    "not safari <= 16.4",
+    "not samsung <= 20",
+    "not and_ff <= 110"
+  ]
+}
